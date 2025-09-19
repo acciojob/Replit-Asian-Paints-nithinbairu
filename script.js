@@ -2,10 +2,10 @@
 document.getElementById("submit").addEventListener("click",
 	function(event){
 		event.preventDefault();
-		const gridid=document.getElementById("input").value;
-		const color=document.getElementById("color").value;
+		const gridid=document.getElementById("block_id").value;
+		const color=document.getElementById("colour_id").value;
 
-		const allgrid=document.querySelectorAll(".grid");
+		const allgrid=document.querySelectorAll(".grid-item");
 		allgrid.forEach(item=>{
 			item.style.backgroundColor='transparent'
 		})
