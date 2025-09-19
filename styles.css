@@ -5,7 +5,7 @@
 	grid-template-columns:repeat(3,1fr);
 	gap:10px
 }
-.grid{
+.grid-item{
 	background-color:transparent;
 	padding:20px 0;
 	text-align:center;
